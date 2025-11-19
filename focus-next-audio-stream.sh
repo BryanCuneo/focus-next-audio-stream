@@ -57,7 +57,6 @@ done
 
 if [[ -z $TARGET_PID ]]; then
     TARGET_PID="${UNIQUE_WINDOW_PIDS[0]}"
-    echo "No match found. TARGET_PID: $TARGET_PID"
 fi
 
 if [[ -z "$TARGET_PID" ]]; then
